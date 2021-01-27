@@ -1,0 +1,296 @@
+@font-face {
+    font-family: Laila-Bold;
+    src: url(font/Laila-Bold.ttf);
+}
+@font-face {
+    font-family: Laila-Light;
+    src: url(font/Laila-Light.ttf);
+}
+@font-face {
+    font-family: Laila-Semibold;
+    src: url(font/Laila-SemiBold.ttf);
+}
+h1 {
+
+    font-family: Laila-Bold, cursive;
+    font-size: 45px;
+    line-height: 51px;
+    color: #7A2040;
+
+    }
+.tsvetok {
+    margin-top: 50px;
+}
+    h2 {
+        font-family: Laila-Semibold, cursive;
+    }
+    .main .container{
+        width: 100vh;
+          background-image: url(images/pink.png);
+        background-size: 370px;
+        background-repeat: no-repeat;
+        background-position: 420px;
+        background-position-y: 10px;
+
+    }
+    .container{
+        width: 100vh;
+
+    }
+    .cart{
+        margin-left: 10vh;
+        margin-top: 30px;
+        font-family: Laila-Light, cursive;
+    }
+    .main-header .kartinki .col-2{
+        height: 18vh;
+    }
+    .header-text{
+        width: 80%;
+        text-align: center; 
+        background: url(images/leaf.png);
+        background-repeat: no-repeat;
+        background-size: 104px;
+        background-position: 100px;
+        background-position: 54px;
+        background-position-y: 23px;
+        margin-bottom: 50px;
+       
+    }
+    section.main h1{
+        font-size: 45px ;
+        width: 100%;
+    }
+    section.main .tsvetok img{
+        width: 8vh;
+        width: 100%;
+    }
+ 
+    body
+    {
+        background-color: #E8FFF9;
+        font-family: 'Laila', serif;
+        text-align: center;
+        font-size: 24px;
+        color: #7A2040;
+        align-items: center;
+        
+    }
+.about{
+    text-align: center;
+
+}
+.about_us
+{      
+
+    padding-top: 23px;
+    padding-bottom: 156px;
+    background-image: url(images/topping.png);
+    background-size: 43vh;
+    background-repeat: no-repeat;
+    background-position: 0px;
+    background-position-y: 150px;
+    
+}
+.about_text{
+    width: 80%;
+    margin-left: 12vh;
+}
+.button 
+{
+    background-color:#DE84A5; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin-top:  50px;
+    cursor: pointer;
+    border-radius: 12px;
+    text-decoration: none;
+    font-family: Laila-Semibold, cursive;
+}
+.column
+{
+    float: left;
+    width: 33.33%;
+    font-family: Laila-Semibold, cursive;
+}
+.spacebottom
+{
+    margin-bottom: 50px;
+    margin-top: 72px;
+}
+h2
+{
+    font-weight: bold;
+
+}
+p {
+    font-family: Laila-Light, cursive;
+}
+@media only screen and (max-width: 1024px)  {
+    .section.main h1, .header-text, main, h1, .social, .address, .CU, .locCls,.address1, .locImg, .locText, .address1 p, .aboutUsTxt, .col-md-8, .centered, .container, .body, .header-text, .button, .h2, .column, .section.main, .main-header, .kartinki, .col-2, .cart {
+        background-image: none !important;
+        width: 95%;
+        align-self: center;
+          }
+   
+    }
+@media only screen and (max-width: 1024px)  {
+    .offers {
+        background-image: none !important;
+        align-self: center;
+        width: 215%;
+            }
+    
+    }
+@media only screen and (max-width: 1024px)  {
+         .about_text {
+        background-image: none !important;
+        align-self: center;
+        width: 180%;
+            }
+    
+        }
+@media only screen and (max-width: 1024px)  {
+    .footer {
+        background-image: none !important;
+        align-self: center;
+        width: 215%;
+            }
+    
+    }
+@media only screen and (max-width: 1024px)  {
+    .about {
+        background-image: none !important;
+        align-self: center;
+        width: 250%;
+            }
+    
+    }
+
+@media only screen and (max-width: 1024px)  {
+    .locCls {
+        background-image: none !important;
+        align-self: center;
+        width: 250%;
+        padding-left: 12vh;
+            }
+    
+    }
+
+@media only screen and (max-width: 1024px)  {
+    .address1 {
+        background-image: none !important;
+        align-self: right;
+        width: 260px;
+            }
+    
+    }
+    
+
+@media only screen and (min-width: 768px) {
+    .centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+
+        .col-md-8{
+        
+        font-family: Laila;
+        font-style:normal;
+        font-weight:normal;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        
+        color: #000000;
+        
+        mix-blend-mode: normal;
+        
+         }
+
+        }
+
+        
+        .address1 p{
+            margin: 0;
+            padding: 0;
+            font-size: 16px;
+            padding-right: 10px;
+            font-family: Laila-Semibold;
+            color: rgb(255, 255, 255);
+            }
+        
+            .aboutUsTxt {
+              position: relative;
+              height: 40px;        
+              font-style: normal;
+              font-weight: 600;
+              font-size: 34px;
+              line-height: 37px;
+              text-align: center;
+              
+              color: #7A2040;
+              }
+        
+              .locText{
+                font-size:34px;
+                margin-right: 76px;
+                font-family: Laila-Semibold;
+
+              }
+        
+        .locImg{
+            width: 800px;
+            height: 350px;
+            margin-right: 15vh;
+        }
+        
+        .address1{
+            position: relative;
+            float: right;
+            margin-top: 20px;
+        }
+        
+        .CU{
+            position: relative;
+            height: 143px;
+            background-color: rgb(53, 53, 53);
+            width: 800px;
+            text-align: left;
+            padding-left: 1vh;
+        }
+        
+        .locCls{
+            position:relative;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-right: 10vh;
+
+        }
+        .contpng {
+            text-align: left;
+            padding-left: 1vh;
+        }
+
+        .address {
+          margin-top: 3%;
+          margin-top: 20px;
+        }
+        .social {
+            width: 50px;
+            height: 91px;
+        }
+        .soc {
+            width: 52px; 
+            height: 66px; 
+            padding-top: 1.5%; 
+            padding-bottom: 1.5%;
+        }
+        
